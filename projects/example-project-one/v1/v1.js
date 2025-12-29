@@ -27,4 +27,4 @@ setTimeout(() => {
   console.log('ELI: example-storage-item set!');
 }, 5000);
 
-console.log('ELI: example-project - v1 loaded!');
+console.log('ELI: example-project-one - v1 loaded!');

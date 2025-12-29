@@ -6,6 +6,8 @@ import utils from '@eli/utils';
 // run the shared code (optional)
 shared();
 
+console.log('ELI: example-project-two - v1 loaded!');
+
 // insert the html and scss
 document.body.insertAdjacentHTML('afterbegin', v1Html);
 document.head.insertAdjacentHTML('beforeend', `<style>${v1Scss}</style>`);
@@ -26,5 +28,3 @@ setTimeout(() => {
   window.localStorage.setItem('example-storage-item', 'example-storage-item-value');
   console.log('ELI: example-storage-item set!');
 }, 5000);
-
-console.log('ELI: example-project - v1 loaded!');

@@ -4,6 +4,7 @@ import shared from '../shared.js';
 
 // run the shared code (optional)   
 shared();
+console.log('ELI:Project 2 v2 loaded!');
 
 // insert the html and scss
 document.body.insertAdjacentHTML('afterbegin', v2Html);
@@ -50,5 +51,3 @@ document.addEventListener('keydown', (e) => {
 
 // open modal by default when page loads
 openModal();
-
-console.log('ELI:Project 1 v2 loaded!');
