@@ -51,4 +51,4 @@ document.addEventListener('keydown', (e) => {
 // open modal by default when page loads
 openModal();
 
-console.log('ELI:Project 1 v2 loaded!');
+console.log('ELI: example-project-one - v2 loaded!');
