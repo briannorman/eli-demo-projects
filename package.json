@@ -1,0 +1,20 @@
+{
+  "name": "eli-demo-projects",
+  "version": "1.0.0",
+  "description": "Example projects for ELI (Experimentation Local Interface)",
+  "private": true,
+  "scripts": {
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "@briannorman9/eli-utils": "^1.0.0"
+  },
+  "keywords": [
+    "eli",
+    "web-experiments",
+    "demo"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
